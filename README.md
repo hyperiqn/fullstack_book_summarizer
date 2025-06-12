@@ -39,7 +39,7 @@ This project implements a comprehensive full-stack application that allows users
 ### AI/ML Components (External Host)
 
 * **`vLLM`:** High-throughput and low-latency LLM serving engine, used for **horizontal scalability and efficient handling of concurrent requests**.
-* **Large Language Models (LLMs):** Specifically **Mistral 7B 0.2 Quantized**, deployed via `vLLM` for summarization and RAG query answering. Hosted on a **college A100 GPU**, making efficient use of approximately **4GB of VRAM** during inference.
+* **Large Language Models (LLMs):** Specifically **Mistral-7B-Instruct-v0.2-AWQ**, deployed via `vLLM` for summarization and RAG query answering. Hosted on a **college A100 GPU**, making efficient use of approximately **4GB of VRAM** during inference.
 * **Embedding Models:** For converting text into numerical vectors sentence-transformers/all-MiniLM-L6-v2 was used.
 * **ChromaDB:** Vector database for storing and retrieving document chunks.
 
