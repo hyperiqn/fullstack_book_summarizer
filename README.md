@@ -18,9 +18,7 @@ This project implements a comprehensive full-stack application that allows users
 * **Performance Metrics:** Implemented load testing with Locust to benchmark system performance and identify bottlenecks.
 
 ## Video Demo
-
-[![Watch the video here!](https://placehold.co/600x400/CCCCCC/333333?text=Click+to+Watch+Video)]((https://youtu.be/mgBqyUGxEjg))
-*(Click the image to watch a 4-minute video demonstrating the application's functionality and a brief overview of its features.)*
+https://youtu.be/mgBqyUGxEjg
 
 ## Technologies Used
 
