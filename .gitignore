@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.*
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Python virtual environment
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Database specific files
+*.sqlite3 # If you were using SQLite locally
+*.db # General database files
+chroma_data/
+
+# S3 test files (if you have them locally)
+test.pdf
+
+# Logs
+*.log
+logs/
+
+# IDE specific files
+.vscode/ # VS Code settings
+.idea/   # IntelliJ / PyCharm settings
+
+# Frontend build output
+frontend/dist/
+frontend/build/ # If using Create React App
+frontend/node_modules/
