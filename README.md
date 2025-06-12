@@ -55,12 +55,11 @@ https://youtu.be/mgBqyUGxEjg
 
 * **Locust:** Open-source load testing tool for simulating user behavior.
 
-
 ## Performance Insights & Future Improvements
 
 Load testing with Locust revealed that while the system maintains **0% failures** for **25 concurrent users**, the most resource-intensive operations still contribute significantly to overall latency. Specifically, the **document upload (which includes LLM summarization)** averages around **31 seconds**, and **RAG-powered queries** average **4.1 seconds** test. 
 
-This performance profile is heavily influenced by the **Mistral-7B-Instruct-v0.2-AWQ** running on a college A100 GPU, consuming approximately 4GB of VRAM per instance. The `vLLM` framework efficiently manages this, but LLM inference remains the dominant factor in latency.
+This performance profile is heavily influenced by the **Mistral-7B-Instruct-v0.2-AWQ** running on my college A100 GPU, consuming approximately 4GB of VRAM per instance. The `vLLM` framework efficiently manages this, but LLM inference remains the dominant factor in latency.
 
 Potential avenues for further optimization include:
 
@@ -70,6 +69,11 @@ Potential avenues for further optimization include:
 * **Embedding Strategy:** Evaluating alternative embedding models or exploring parallel embedding generation techniques.
 * **Network Latency:** Minimizing network latency between the backend and the external LLM/Embedding service host.
 * **Horizontal Scaling:** Further distributing the FastAPI application and `vLLM` instances across multiple servers for higher throughput.
+
+## References 
+
+https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-AWQ
+https://github.com/NirDiamant/RAG_Techniques
 
 ## Contributing
 
