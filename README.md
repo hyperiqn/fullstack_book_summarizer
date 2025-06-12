@@ -72,8 +72,8 @@ Potential avenues for further optimization include:
 
 ## References 
 
-https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-AWQ
-https://github.com/NirDiamant/RAG_Techniques
+* https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-AWQ
+* https://github.com/NirDiamant/RAG_Techniques
 
 ## Contributing
 
