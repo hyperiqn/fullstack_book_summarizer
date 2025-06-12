@@ -1,6 +1,6 @@
 # Fullstack Document Summarizer & RAG Application
 
-This project implements a comprehensive full-stack application that allows users to upload PDF documents, automatically generate summaries using Large Language Models (LLMs), and perform Retrieval-Augmented Generation (RAG) queries to chat with their documents. The system is designed for high performance and scalability, leveraging asynchronous processing and specialized LLM serving.
+An extension to my Book summarizer with RAG, this project implements a comprehensive full-stack application that allows users to upload PDF documents, automatically generate summaries using Large Language Models (LLMs), and perform Retrieval-Augmented Generation (RAG) queries to chat with their documents. The system is designed for high performance and scalability, leveraging asynchronous processing and specialized LLM serving.
 
 ## Features
 
