@@ -56,7 +56,7 @@ https://youtu.be/mgBqyUGxEjg
 
 * **Locust:** Open-source load testing tool for simulating user behavior.
 
-## ⚙️ Configuration Notes (For Developers/Maintainers)
+## Configuration Notes (For Developers/Maintainers)
 
 This section outlines key configuration points for the application.
 * **Install dependencies:** 
@@ -95,7 +95,7 @@ This section outlines key configuration points for the application.
 * **Local Infrastructure (Docker Compose):**
     The project typically relies on Docker Compose for local development services like PostgreSQL, Redis, and ChromaDB.
 
-## ▶️ Running the Application
+## Running the Application
 
 This project is set up to be run locally in a development environment.
 ### 1. Start the Backend Services (PostgreSQL, Redis)
