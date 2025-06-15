@@ -107,7 +107,7 @@ This project is set up to be run locally in a development environment.
     docker run --name book_summarizer_postgres -e POSTGRES_USER=user -e POSTGRES_PASSWORD=pass -e POSTGRES_DB=pg_db -p 5432:5432 -d postgres:latest
 ###
     docker run --name book_summarizer_redis -p 6379:6379 -d redis/redis-stack-server:latest
-### 2. Running the vllm server
+### 2. Running the vllm server(Run this on your gpu)
     python3 -m vllm.entrypoints.api_server --model TheBloke/Mistral-7B-Instruct-v0.2-AWQ --port 8888 --host 0.0.0.0
 ### 3. Running the app(fastapi, chromadb, celery, ssh tunnel)
     uvicorn main:app --host 0.0.0.0 --port 8001 --reload 
